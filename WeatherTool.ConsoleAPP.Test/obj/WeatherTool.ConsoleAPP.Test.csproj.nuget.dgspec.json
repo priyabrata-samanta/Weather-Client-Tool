@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\ME\\PROJECT\\WeatherTool.ConsoleAPP.Test\\WeatherTool.ConsoleAPP.Test.csproj": {}
+  },
+  "projects": {
+    "F:\\ME\\PROJECT\\WeatherTool.ConsoleAPP.Test\\WeatherTool.ConsoleAPP.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ME\\PROJECT\\WeatherTool.ConsoleAPP.Test\\WeatherTool.ConsoleAPP.Test.csproj",
+        "projectName": "WeatherTool.ConsoleAPP.Test",
+        "projectPath": "F:\\ME\\PROJECT\\WeatherTool.ConsoleAPP.Test\\WeatherTool.ConsoleAPP.Test.csproj",
+        "packagesPath": "C:\\Users\\NOTON\\.nuget\\packages\\",
+        "outputPath": "F:\\ME\\PROJECT\\WeatherTool.ConsoleAPP.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOTON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

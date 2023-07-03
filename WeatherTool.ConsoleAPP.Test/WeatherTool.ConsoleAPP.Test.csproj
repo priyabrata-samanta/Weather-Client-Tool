@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="xunit.assert" Version="2.4.2" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WeatherTool.ConsoleApp">
+      <HintPath>..\WeatherTool.ConsoleApp\bin\Debug\netcoreapp3.1\publish\WeatherTool.ConsoleApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
